@@ -1,8 +1,8 @@
 
-# name = input("Provide your name: ")
+name = input("Provide your name: ")
 
-# length = len(name)
+length = len(name)
 
-# print(f"Length of the name: {name} is {length}")
+print(f"Length of the name: {name} is {length}")
 
-print(len(input("what is ur name ")))
+# print(len(input("what is ur name "))) this code will produce same result
