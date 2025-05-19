@@ -23,10 +23,10 @@ second_digit = l + o + v + e
 score = str(first_digit) + str(second_digit)
 score = int(score)
 if score < 10 or score > 90:
-    print(f"Your score is {score}, you go together like coke and mentos")
+    print(f"Your love score is {score}, you go together like coke and mentos")
 elif score >= 40 and score <= 50:
-    print(f"Your score is {score}, you are alright together")
+    print(f"Your love score is {score}, you are alright together")
 else:
-    print(f"Your score is {score}")
+    print(f"Your love score is {score}")
 # score = first_digit + second_digit
 # print(first_digit + second_digit)
