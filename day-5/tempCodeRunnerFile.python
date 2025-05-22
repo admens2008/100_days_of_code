@@ -1,0 +1,9 @@
+for i in range(1, nr_symbols):
+#     random_number = random.choice(numbers)
+#     random_numbers.append(random_number)
+# print(random_numbers)
+
+# for s in range(1, nr_symbols):
+#     random_symbol = random.choice(symbols)
+#     random_symbols.append(random_symbol)
+# print(random_symbols)
