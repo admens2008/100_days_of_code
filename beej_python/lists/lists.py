@@ -58,3 +58,47 @@
 #     if j % 2 == 0:
 #         x[i] = j * 2
 # print(x)
+
+# # built-in funtctions
+
+# a = [1, 2, 3, 4, 5]
+
+# print(a.index(4))
+# a.reverse()
+# print(a)
+# a.insert(1, 69)
+# print(a)
+# a.clear()
+# print(a)
+
+# b = [2, 34]
+# c = a + b
+# print(c)
+
+# # fibonacci sequence
+
+# num = [0, 1]
+
+# for i in range(98):
+#     sum = num[-1] + num[-2]
+#     num.append(sum)
+# print(num)
+
+# # building new lists, repeating and empty
+# x = [2, 4, 7, 8]
+# y = x * 3
+# print(y)
+
+# # List comprehension
+# a = [1, 2, 3, 4, 5, 6]
+
+# b = []
+# for i in a:
+#     if i % 2 == 0:
+#         b.append(i * 4)
+# print(b)
+
+# using list comprehension to solve same problem
+a = [1, 2, 3, 4, 5, 6]
+b = [i * 4 for i in a if i % 2 == 0]
+print(b)
